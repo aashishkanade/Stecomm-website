@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>STECOMM Infoservces</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style type="text/css">
+		
+		html, body {
+			max-width:100%;
+			overflow-x:hidden;
+		}
+		
+		.jumbotron { 
+			height:50rem; 
+			margin:0px; 
+			background: url(img/backgrounds/two.jpg) no-repeat center top;
+			background-size: cover;
+		}
+		
+		#title > a > span {
+			font-family: origicide;
+			font-size: 8rem;
+		}
+		
+		@media (max-width:400px){
+			.jumbotron {
+				background: none;
+				background-color:black;
+				height:20rem;
+			}
+			
+			#title > a > span {
+				font-size: 6rem;
+			}
+		}
+		
+		#slogan {
+			font-family: journal;
+			color: white;
+			font-size: 5rem;
+		}
+		
+		#tagline {
+			font-size: 2rem;
+			color:white;
+		}
+		
+		#nav {
+			color: white;
+			font-size: 2rem;
+			text-align: center;
+		}
+		
+		::-webkit-scrollbar { 
+            display: none; 
+        }
+		
+		@font-face {
+			font-family: journal;
+			src: url('fonts/journal.ttf');
+			font-stretch: ultra-expanded;
+		}
+		
+		@font-face {
+			font-family: origicide;
+			src: url('fonts/Origicide.ttf');
+			font-stretch: ultra-expanded;
+		}
+		
+		a:link, a:visited, a:active, a:hover {
+			color:black;
+			text-decoration:none;
+		}
+		
+		#mi {
+			text-align:center;
+			padding-top: 1rem;
+			height:5rem;
+			border-top:1px solid;
+			border-radius:20px;
+		}
+		
+		#mi:hover {
+			border:1px solid;
+			border-radius:20px;
+		}
+		
+		#map-canvas {
+			height: 35rem;
+			width:100%;
+		}
+		
+		#info {
+			height:35rem;
+			font-size:1.5rem;
+			text-align:center;
+		}
+		
+		
+	</style>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(19.10681, 72.86560),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(19.10681, 72.86560),
+			map:map
+		});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+
+<body>	
+			<div class="jumbotron">
+			
+				<div id="title" align="center">
+					<a href="index.html"><span style="color:white">STE</span><span style="color:orange">Comm</span></a>
+				</div>
+				
+			</div>
+		
+	
+		<div class="row" style="height:2rem;"></div>
+	
+		<div class="row" id="nav">
+			<div class="col-md-4 col-sm-1 col-xs-1 col-lg-4 col-xl-4" style></div>
+			<div class="col-md-4 col-sm-10 col-xs-10 col-lg-4 col-xl-4" id="nav">
+				<a href="latest_work.html" align="center">
+					<div id="mi" class="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-xl-3">
+						Latest work
+					</div>
+				</a>
+				<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1 col-xl-1" style="height:2rem;"></div>
+				<div id="mi" class="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-xl-3" style="border:none;color:black;">
+					Contact us
+				</div>
+				<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1 col-xl-1" style="height:2rem;"></div>
+				<a href="our_team.html" align="center">
+					<div id="mi" class="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-xl-3">
+						Our team
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-1 col-xs-1 col-lg-4 col-xl-4"></div>
+		</div>
+	
+		<hr>
+		<div class="row" style="height:2rem;"></div>
+	
+		<div class="row">
+		
+			<div class="col-sm-1 col-xs-1 col-md-2"></div>
+			<div class="col-sm-10 col-xs-10 col-md-8">
+				
+				<div class="col-md-1"></div>
+				<div class="col-md-4">
+					<div id="info">
+						<h3> Find us at </h3>
+						<address>
+							<i>203, Shivam, Mistry Complex,</i><br>
+							<i>J.B.Nagar, Andheri (E),</i><br>
+							<i>Mumbai, 400059</i><br>
+						<i>Maharashtra, India</i>
+						</address>
+						<h3>Call us at</h3>
+						<address>
+							<i>+91 98 209 12663 - Sagar Tirodkar</i><br>
+							<i>+91 98 209 12663 - Nilen Kunder</i><br>
+						</address>
+						<h3>Write to us at</h3>
+						<address>
+							<i><a href="#myModal" style="text-decoration: underline;color:blue;" data-toggle="modal">info@stecomm.com</a></i><br>
+						</address>
+					</div>
+				</div>
+				<div class="col-md-1" style="height:2rem;"></div>
+				<div class="col-md-5">
+					<div id="map-canvas" style="border:1px solid"></div>
+				</div>
+				<div class="col-md-1"></div>
+				
+			</div>
+			<div class="col-sm-1 col-xs-1 col-md-2"></div>
+				
+		</div>	
+		
+		<div class="row" style="height:5rem;"></div>
+		<hr>
+		<footer align="center">
+			STECOMM Inforservices <br>
+			Design | Development | Results <br>
+			All rights reserved.
+		</footer>
+		<br><br>
+		
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h2>Write to us!</h2>
+					<form method="post" name="contact_form"
+					action="contact-form-handler.php">
+						<br><input type="text"class="form-control" placeholder="Enter your name here"/ name="name">
+						<br><input type="email"class="form-control" placeholder="Enter your email address here"/ name="email">
+						<br><textarea style="max-width:100%" class="form-control" rows="6" placeholder="What do you want to tell us?"></textarea>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+						<input type="submit" class="btn btn-primary" value="Send"></button>
+					</form>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3>Thanks!</h3>
+					<br>We will get back to you soon!
+				</div>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal" onclick="javascript:window.location.href='contact_us.html';">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+			<script language="JavaScript">
+			
+			$(window).load(function(){
+				$('#thankyou').modal('show');
+			});
+			
+			</script>
+</body>
+
+</html>

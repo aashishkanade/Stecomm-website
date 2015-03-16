@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>STECOMM Infoservces</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style type="text/css">
+		
+		html, body {
+			max-width:100%;
+			overflow-x:hidden;
+		}
+		
+		.jumbotron { 
+			height:50rem; 
+			margin:0px; 
+			background: url(img/backgrounds/four.jpg) no-repeat center center;
+			background-size: cover;
+		}
+		
+		#filler {
+			display:none;
+		}
+		
+		#title > a > span {
+			font-family: origicide;
+			font-size: 8rem;
+		}
+		
+		.work {
+			height:30rem;
+		}
+		
+		.inside-work {
+			height:100%;
+		}
+		
+		.carousel {
+			height:40rem;
+		}
+		
+		#gallery {
+			height:40rem;
+			width:100%;
+		}
+		
+		@media (max-width:480px){
+			.jumbotron {
+				background-image: none;
+				background-color:black;
+				height:20rem;
+			}
+			
+			#title > a > span {
+				font-size: 6rem;
+			}
+			
+			#filler {
+				display:inline;
+			}
+			
+			.work {
+				height:70rem;
+			}
+			
+			.inside-work {
+				height:50%%;
+			}
+			
+			.carousel {
+				height:30rem;
+			}
+			
+			.gallery {
+				height:30rem;
+				width:100%;
+			}
+		}	
+		
+		#slogan {
+			font-family: journal;
+			color: white;
+			font-size: 5rem;
+		}
+		
+		#tagline {
+			font-size: 2rem;
+			color:white;
+		}
+		
+		#nav {
+			color: white;
+			font-size: 2rem;
+			text-align: center;
+		}
+		
+		::-webkit-scrollbar { 
+            display: none; 
+        }
+		
+		@font-face {
+			font-family: journal;
+			src: url('fonts/journal.ttf');
+			font-stretch: ultra-expanded;
+		}
+		
+		@font-face {
+			font-family: origicide;
+			src: url('fonts/Origicide.ttf');
+			font-stretch: ultra-expanded;
+		}
+		
+		a:link, a:visited, a:active, a:hover {
+			color:black;
+			text-decoration:none;
+		}
+		
+		#mi {
+			text-align:center;
+			padding-top: 1rem;
+			height:5rem;
+			border-top:1px solid;
+			border-radius:20px;
+		}
+		
+		#mi:hover {
+			border:1px solid;
+			border-radius:20px;
+		}
+		
+		
+		
+	</style>
+	
+</head>
+
+<body>
+		
+		<div class="jumbotron">	
+			<div id="title" align="center">
+				<a href="index.html"><span style="color:white">STE</span><span style="color:orange">Comm</span></a>
+			</div>
+		</div>
+		
+		<div class="row" style="height:2rem;"></div>
+	
+		<div class="row" id="nav">
+			<div class="col-md-4 col-sm-1 col-xs-1 col-lg-4 col-xl-4" style></div>
+			<div class="col-md-4 col-sm-10 col-xs-10 col-lg-4 col-xl-4" id="nav">
+				<a href="contact_us.html" align="center">
+					<div id="mi" class="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-xl-3">
+						Contact us
+					</div>
+				</a>
+				<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1 col-xl-1" style="height:2rem;"></div>
+				<div id="mi" class="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-xl-3" style="border:none;color:black;">
+					Latest Work
+				</div>
+				<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1 col-xl-1" style="height:2rem;"></div>
+				<a href="our_team.html" align="center">
+					<div id="mi" class="col-md-3 col-sm-12 col-xs-12 col-lg-3 col-xl-3">
+						Our team
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-1 col-xs-1 col-lg-4 col-xl-4"></div>
+		</div>
+	
+		<hr>
+		<div class="row" style="height:2rem;"></div>
+		
+		<div class="row" style="font-size: 1.5rem;">
+			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+			<div class="col-xs-12 col-sm-12 col-md-5 work" style="padding:0;">
+				<div class="col-xs-12 col-sm-12 col-md-5 inside-work" style="background: url(img/work/finesse/home.png) no-repeat center center;background-size: cover;"></div>
+				<div class="col-xs-12 col-sm-12 col-md-7 inside-work">
+					<h3>Finesse Entertainment</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br><br>
+					<div class="row">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="#finesseModal" align="center" data-toggle="modal">
+								<div id="mi">
+									View gallery
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="http://www.finesseentertainment.co.in" align="center">
+								<div id="mi">
+									Go to site
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-0 col-xs-0"></div>
+					</div>
+				</div>
+			</div>
+			<div id="filler" class="col-md-12 col-sm-0 col-xs-0" style="height:5rem;"></div>
+			<div class="col-xs-12 col-sm-12 col-md-5 work" style="padding:0;">
+				<div class="col-xs-12 col-sm-12 col-md-5 inside-work" style="background: url(img/work/sportlitecafe/home.png) no-repeat center center;background-size: cover;"></div>
+				<div class="col-xs-12 col-sm-12 col-md-7 inside-work">
+					<h3>Sport Lite Cafe</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br><br>
+					<div class="row">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="#sportlitecafeModal" align="center" data-toggle="modal">
+								<div id="mi">
+									View gallery
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="http://sportlitecafe.com" align="center">
+								<div id="mi">
+									Go to site
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-0 col-xs-0"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+		</div>
+		
+		<div class="row" style="height:5rem;"></div>
+		
+		<div class="row" style="font-size: 1.5rem;">
+			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+			<div class="col-xs-12 col-sm-12 col-md-5 work" style="padding:0;">
+				<div class="col-xs-12 col-sm-12 col-md-5 inside-work" style="background: url(img/work/worldnexus/home.png) no-repeat center center;background-size: cover;"></div>
+				<div class="col-xs-12 col-sm-12 col-md-7 inside-work">
+					<h3>World Nexus</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br><br>
+					<div class="row">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="#worldnexusModal" align="center" data-toggle="modal">
+								<div id="mi">
+									View gallery
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="http://www.worldnexus.in" align="center">
+								<div id="mi">
+									Go to site
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-0 col-xs-0"></div>
+					</div>
+				</div>
+			</div>
+			<div id="filler" class="col-md-12 col-sm-0 col-xs-0" style="height:5rem;"></div>
+			<div class="col-xs-12 col-sm-12 col-md-5 work" style="padding:0;">
+				<div class="col-xs-12 col-sm-12 col-md-5 inside-work" style="background: url(img/work/datmaxeng/home.png) no-repeat left center;background-size: cover;"></div>
+				<div class="col-xs-12 col-sm-12 col-md-7 inside-work">
+					<h3>DatMaxEng</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br><br>
+					<div class="row">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="#datmaxengModal" align="center" data-toggle="modal">
+								<div id="mi">
+									View gallery
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="http://www.datmaxeng.com" align="center">
+								<div id="mi">
+									Go to site
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-0 col-xs-0"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+		</div>
+		
+		<div class="row" style="height:5rem;"></div>
+		
+		<div class="row" style="font-size: 1.5rem;">
+			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+			<div class="col-xs-12 col-sm-12 col-md-5 work" style="padding:0;">
+				<div class="col-xs-12 col-sm-12 col-md-5 inside-work" style="background: url(img/work/ceoshub/home.png) no-repeat center center;background-size: cover;"></div>
+				<div class="col-xs-12 col-sm-12 col-md-7 inside-work">
+					<h3>CEO's Hub</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br><br>
+					<div class="row">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="#ceoshubModal" align="center" data-toggle="modal">
+								<div id="mi">
+									View gallery
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="http://www.ceoshub.com" align="center">
+								<div id="mi">
+									Go to site
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-0 col-xs-0"></div>
+					</div>
+				</div>
+			</div>
+			<div id="filler" class="col-md-12 col-sm-0 col-xs-0" style="height:5rem;"></div>
+			<div class="col-xs-12 col-sm-12 col-md-5 work" style="padding:0;">
+				<div class="col-xs-12 col-sm-12 col-md-5 inside-work" style="background: url(img/work/thiyasamaj/home.png) no-repeat left center;background-size: cover;"></div>
+				<div class="col-xs-12 col-sm-12 col-md-7 inside-work">
+					<h3>Thiya Samaj</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br><br>
+					<div class="row">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="#thiyasamajModal" align="center" data-toggle="modal">
+								<div id="mi">
+									View gallery
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-md-4 col-sm-5 col-xs-5">
+							<a href="http://www.thiyasamaj.com" align="center">
+								<div id="mi">
+									Go to site
+								</div>
+							</a>
+						</div>
+						<div class="col-md-1 col-sm-0 col-xs-0"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+		</div>
+		
+		<div class="row" style="height:5rem;"></div>
+		<hr>
+		<footer align="center">
+			STECOMM Inforservices <br>
+			Design | Development | Results <br>
+			All rights reserved.
+		</footer>
+		<br><br>
+		
+		<div class="modal fade" id="finesseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3 align="center">Finesse Entertainment website gallery</h3>
+					<br><div id="finesseCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#finesseCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#finesseCarousel" data-slide-to="1"></li>
+						<li data-target="#finesseCarousel" data-slide-to="2"></li>
+						<li data-target="#finesseCarousel" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img id="gallery" src="img/work/finesse/home.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/finesse/one.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/finesse/two.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/finesse/three.png">
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#finesseCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#finesseCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br>
+		
+		<div class="modal fade" id="sportlitecafeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3 align="center">Sport Lite Cafe website gallery</h3>
+					<br><div id="sportlitecafeCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#sportlitecafeCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#sportlitecafeCarousel" data-slide-to="1"></li>
+						<li data-target="#sportlitecafeCarousel" data-slide-to="2"></li>
+						<li data-target="#sportlitecafeCarousel" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img id="gallery" src="img/work/sportlitecafe/home.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/sportlitecafe/one.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/sportlitecafe/two.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/sportlitecafe/three.png">
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#sportlitecafeCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#sportlitecafeCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br>
+		
+		<div class="modal fade" id="thiyasamajModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3 align="center">Thiya Samaj website gallery</h3>
+					<br><div id="thiyasamajCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#thiyasamajCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#thiyasamajCarousel" data-slide-to="1"></li>
+						<li data-target="#thiyasamajCarousel" data-slide-to="2"></li>
+						<li data-target="#thiyasamajCarousel" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img id="gallery" src="img/work/thiyasamaj/home.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/thiyasamaj/one.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/thiyasamaj/two.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/thiyasamaj/three.png">
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#thiyasamajCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#thiyasamajCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br>
+		
+		<div class="modal fade" id="worldnexusModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3 align="center">World Nexus website gallery</h3>
+					<br><div id="worldnexusCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#worldnexusCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#worldnexusCarousel" data-slide-to="1"></li>
+						<li data-target="#worldnexusCarousel" data-slide-to="2"></li>
+						<li data-target="#worldnexusCarousel" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img id="gallery" src="img/work/worldnexus/home.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/worldnexus/one.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/worldnexus/two.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/worldnexus/three.png">
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#worldnexusCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#worldnexusCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br>
+		
+		<div class="modal fade" id="ceoshubModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3 align="center">CEO's Hub website gallery</h3>
+					<br><div id="ceoshubCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#ceoshubCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#ceoshubCarousel" data-slide-to="1"></li>
+						<li data-target="#ceoshubCarousel" data-slide-to="2"></li>
+						<li data-target="#ceoshubCarousel" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img id="gallery" src="img/work/ceoshub/home.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/ceoshub/one.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/ceoshub/two.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/ceoshub/three.png">
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#ceoshubCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#ceoshubCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br>
+		
+		<div class="modal fade" id="datmaxengModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-body">
+				<div id="content">
+					<h3 align="center">DatMaxEng website gallery</h3>
+					<br><div id="datmaxengCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#datmaxengCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#datmaxengCarousel" data-slide-to="1"></li>
+						<li data-target="#datmaxengCarousel" data-slide-to="2"></li>
+						<li data-target="#datmaxengCarousel" data-slide-to="3"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img id="gallery" src="img/work/datmaxeng/home.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/datmaxeng/one.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/datmaxeng/two.png">
+						</div>
+						<div class="item">
+						  <img id="gallery" src="img/work/datmaxeng/three.png">
+						</div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#datmaxengCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#datmaxengCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br>
+		
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
